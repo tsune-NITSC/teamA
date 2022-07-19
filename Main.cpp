@@ -12,9 +12,9 @@ void Main() {
 	Window::Maximize();
 
 	//敵の画像を読み込む
-	const Texture enemystyle{ U"C:/Users/tsune/OneDrive/デスクトップ/シューティングゲーム/enemy.png" };
+	const Texture enemystyle{ U"C:/Users/tsune/OneDrive/デスクトップ/シューティングゲーム/enemy.png" /*ここのリンクは自分で変えて読み込めるようにしてね*/};
 	//自機の画像を読み込む
-	const Texture playerstyle{ U"C:/Users/tsune/OneDrive/デスクトップ/シューティングゲーム/player.png" };
+	const Texture playerstyle{ U"C:/Users/tsune/OneDrive/デスクトップ/シューティングゲーム/player.png" /*ここのリンクは自分で変えて読み込めるようにしてね*/};
 
 	double enemytime = 0.0;
 
